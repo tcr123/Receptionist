@@ -1,0 +1,5 @@
+<launch>
+  <node name="main" pkg="cr_receptionist" type="receptionist.py" output="screen"/>
+  <node name="tracking" pkg="cr_receptionist" type="chair_tracking.py" output="screen"/>
+  <!-- <node name="navigation" pkg="cr_receptionist" type="structured_navigation.py" output="screen"/> -->
+</launch>

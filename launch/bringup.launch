@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find jupiterobot2_bringup)/launch/jupiterobot2_bringup.launch"/>
+    <include file="$(find jupiterobot2_bringup)/launch/multi_camera.launch"/>
+    <include file="$(find jupiterobot2_navigation)/launch/jupiterobot2_navigation.launch">
+        <arg name="map_file" value="/home/mustar/catkin_ws/maps/cr_receptionist.yaml.yaml" />
+    </include>
+</launch>
